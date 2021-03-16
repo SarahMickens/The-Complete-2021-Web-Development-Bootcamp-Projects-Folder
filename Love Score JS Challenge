@@ -1,0 +1,21 @@
+var PersonA = prompt ("What is your name?");
+var PersonB = prompt ("What is your crush's name?");
+
+var LovePerc = Math.random();
+LovePerc = Math.floor(LovePerc*100)+1;
+
+if(LovePerc > 70) {
+
+alert("Your love score is " + LovePerc + "%! You love eachother like Kanye loves Kanye.");
+
+}
+
+if (LovePerc > 30 && LovePerc <=70) {
+alert("The chances of love between " + PersonA + " and " + PersonB + " = " + LovePerc + "%. Things are looking good!");
+}
+
+if (LovePerc <=30) {
+
+alert("The chances of love between " + PersonA + " and " + PersonB + " = " + LovePerc + "%. You go togeher like oil and water.");
+}
+

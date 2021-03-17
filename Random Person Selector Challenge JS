@@ -1,0 +1,11 @@
+function whosPaying(names) {
+    var coWorkers = ["Angela", "Ben", "Jenny", "Michael", "Chloe"]; 
+    var numberOfPeople = coWorkers.length;
+    var randomPersonPosition = Math.floor(Math.random() * numberOfPeople);
+    var randomPerson = names[randomPersonPosition];
+
+return randomPerson + " is going to buy lunch today!";
+}
+
+
+   whosPaying(names);
